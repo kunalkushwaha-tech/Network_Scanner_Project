@@ -17,14 +17,15 @@ A powerful collection of Python-based security tools designed for network auditi
 
 ## 📸 Proof of Concept (Results)
 
-### 1. Terminal Output (v5.0 Auditor)
-The scan results for a remote target showing 19 open ports:
-![Elite Auditor Results](1000061448.jpg)
+### 1. Terminal Output (v5.0 Elite Auditor)
+The screenshot below shows the tool identifying 19 open ports on a remote target with a structured CLI:
+![Elite Auditor Results](IMG-20260508-WA0013.jpg)
 
-### 2. Service Discovery (v2.0 implementation)
-Identification of specific services like FTP, Telnet, and Domain:
-![Service Discovery](1000061447.jpg)
+### 2. Service Discovery & Mapping
+Identification of specific services like FTP, Telnet, and Domain during a live multi-threaded scan:
+![Service Discovery](IMG-20260508-WA0016.jpg)
 
 ## 🛠️ How to Run
+To use the final professional auditor, use the following command format:
 ```bash
 python3 network_auditor.py -t <target_ip> -p <port_range>
